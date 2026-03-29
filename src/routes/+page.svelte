@@ -39,28 +39,28 @@
 	const FALLBACK_FONT_FAMILY = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 
 	const FONT_OPTIONS = [
-		{ label: 'Funnel Display', family: "'Funnel Display'" },
-		{ label: 'Montserrat', family: "'Montserrat Variable'" },
-		{ label: 'Public Sans', family: "'Public Sans Variable'" },
-		{ label: 'Open Sans', family: "'Open Sans Variable'" },
-		{ label: 'Inter', family: "'Inter Variable'" },
-		{ label: 'IBM Plex Sans', family: "'IBM Plex Sans Variable'" },
-		{ label: 'Roboto', family: "'Roboto Variable'" },
-		{ label: 'Roboto Slab', family: "'Roboto Slab Variable'" },
-		{ label: 'Lora', family: "'Lora Variable'" },
-		{ label: 'Merriweather', family: "'Merriweather Variable'" },
-		{ label: 'Noto Serif', family: "'Noto Serif Variable'" },
-		{ label: 'Playfair Display', family: "'Playfair Display Variable'" },
-		{ label: 'EB Garamond', family: "'EB Garamond Variable'" },
+		{ label: 'Caveat', family: "'Caveat Variable'" },
+		{ label: 'Climate Crisis', family: "'Climate Crisis Variable'" },
 		{ label: 'Comfortaa', family: "'Comfortaa Variable'" },
 		{ label: 'Dancing Script', family: "'Dancing Script Variable'" },
-		{ label: 'Caveat', family: "'Caveat Variable'" },
-		{ label: 'Playpen Sans', family: "'Playpen Sans Variable'" },
-		{ label: 'JetBrains Mono', family: "'JetBrains Mono Variable'" },
-		{ label: 'Roboto Mono', family: "'Roboto Mono Variable'" },
+		{ label: 'EB Garamond', family: "'EB Garamond Variable'" },
 		{ label: 'Fira Code', family: "'Fira Code Variable'" },
+		{ label: 'Funnel Display', family: "'Funnel Display'" },
+		{ label: 'IBM Plex Sans', family: "'IBM Plex Sans Variable'" },
+		{ label: 'Inter', family: "'Inter Variable'" },
+		{ label: 'JetBrains Mono', family: "'JetBrains Mono Variable'" },
+		{ label: 'Lora', family: "'Lora Variable'" },
+		{ label: 'Merriweather', family: "'Merriweather Variable'" },
+		{ label: 'Montserrat', family: "'Montserrat Variable'" },
+		{ label: 'Noto Serif', family: "'Noto Serif Variable'" },
+		{ label: 'Open Sans', family: "'Open Sans Variable'" },
 		{ label: 'Pixelify Sans', family: "'Pixelify Sans Variable'" },
-		{ label: 'Climate Crisis', family: "'Climate Crisis Variable'" }
+		{ label: 'Playfair Display', family: "'Playfair Display Variable'" },
+		{ label: 'Playpen Sans', family: "'Playpen Sans Variable'" },
+		{ label: 'Public Sans', family: "'Public Sans Variable'" },
+		{ label: 'Roboto Mono', family: "'Roboto Mono Variable'" },
+		{ label: 'Roboto Slab', family: "'Roboto Slab Variable'" },
+		{ label: 'Roboto', family: "'Roboto Variable'" }
 	] as const;
 
 	let picker: HTMLInputElement | null = null;
