@@ -33,8 +33,8 @@
 	const TEXT_MAX_SIZE = 188;
 	const TEXT_WIDTH_RATIO = 0.75;
 	const TEXT_LINE_HEIGHT = 1.08;
-	const SCRIM_OPACITY = 0.05;
-	const SCRIM_FEATHER_OPACITY = 0.03;
+	const SCRIM_OPACITY = 0.3;
+	const SCRIM_FEATHER_OPACITY = 0.2;
 	const SCRIM_BLUR_BASE = 6;
 	const FALLBACK_FONT_FAMILY = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 
